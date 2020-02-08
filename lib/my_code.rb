@@ -11,16 +11,16 @@ def map(source_array)
   def reduce(x,y=0)
     i = 0
     statement = false
-    statement_2 = false
+    x = false
     while i < x.length do
     if x[i] = true
       statement = true
-      statement_2 = true
+      x = true
     else
       statement
-      statement_2
+      x
     end
   i+=1
   end
-  yield (statement,statement2)
+  yield (statement,x)
 end
