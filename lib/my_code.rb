@@ -11,10 +11,10 @@ def map(source_array)
 def reduce(source_array,starting_point=0)
   i = 0
   counter = false
-  while x<source_array.length do
+  while i<source_array.length do
     if source_array[i] = true
       counter = []
-      counter << x[i]
+      counter << source_array[i]
     end
     i+=1
   end
