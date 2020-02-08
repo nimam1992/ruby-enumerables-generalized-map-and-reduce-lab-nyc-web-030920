@@ -8,15 +8,12 @@ def map(source_array)
   new_array
   end
 
-  def reduce(x,y=0)
-    i = 0
-    statement = false
-    y = false
-    while i < x.length do
-    if x[i] = true
-      statement = true
-    end
-  i+=1
+def reduce(source_array,starting_point=0)
+  i = 0
+  counter = false
+  while x<source_array.length do
+    if source_array[i] = true
+      counter = []
+      counter << x[i]
   end
-  yield(statement,y)
-end
+    
