@@ -16,4 +16,3 @@ def reduce(source_array,starting_point=0)
       counter = []
       counter << x[i]
   end
-    
