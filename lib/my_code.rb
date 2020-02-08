@@ -22,5 +22,5 @@ def map(source_array)
     end
   i+=1
   end
-  yield (statement,x)
+  yield(statement,x)
 end
