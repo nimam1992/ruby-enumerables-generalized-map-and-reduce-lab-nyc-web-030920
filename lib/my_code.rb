@@ -12,8 +12,10 @@ def map(source_array)
     i = 0
     new_num = 0
     while i < x.length do
-    new_num+=x[i]
-     i+=1
+    if x[i] = true
+      yield true
+    else
+      yield false
     end
-    yield(new_num,y)
-  end
+  i+=1
+end
