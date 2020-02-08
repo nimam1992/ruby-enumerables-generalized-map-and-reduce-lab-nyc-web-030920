@@ -15,7 +15,6 @@ def map(source_array)
     while i < x.length do
     if x[i] = true
       statement = true
-      y = true
     end
   i+=1
   end
