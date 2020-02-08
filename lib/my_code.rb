@@ -15,7 +15,7 @@ def map(source_array)
     while i < x.length do
     if x[i] = true
       statement = true
-      statement2 = true
+      statement_2 = true
     else
       statement
       statement_2
