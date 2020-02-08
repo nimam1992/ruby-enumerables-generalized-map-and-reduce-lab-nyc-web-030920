@@ -15,7 +15,7 @@ def map(source_array)
     if x[i] = true
       statement = true
     else
-      statment
+      statement
     end
   i+=1
   end
