@@ -8,16 +8,16 @@ def map(source_array)
   new_array
   end
 
-def reduce(x,sp=nil)
-  if sp
-    sum = sp
+def reduce(array,sv=nil)
+  if sv
+    sum = sv
     i=0
   else
-    sum = x[0]
+    sum = array[0]
     i=1
   while i < x.length do
     sum = yield(sum,array[i])
     i+=1
   end
   sum
-    end
+end
