@@ -10,7 +10,7 @@ def map(source_array)
 
   def reduce(x,y=0)
     i = 0
-    new_num = 0
+    statement = true
     while i < x.length do
     if x[i] = true
       yield true
