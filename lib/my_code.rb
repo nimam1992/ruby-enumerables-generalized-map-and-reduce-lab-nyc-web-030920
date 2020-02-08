@@ -18,4 +18,5 @@ def map(source_array)
       yield false
     end
   i+=1
+  end
 end
